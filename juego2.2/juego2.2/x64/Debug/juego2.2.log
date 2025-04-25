@@ -1,0 +1,81 @@
+﻿  character.cpp
+  juego2.2.cpp
+C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,43): error C3861: 'to_string': no se encontró el identificador
+C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,41): error C2676: '+' binario: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' no define este operador o una conversión a un tipo aceptable para el operador predefinido
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3214,62):
+      puede ser 'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)": el parámetro de plantilla "_Elem" es ambiguo
+              C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+              puede ser 'unknown-type'
+              C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+              o       'char'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)": no se pudo deducir el argumento plantilla para "const _Elem" de "unknown-type"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3208,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )": no se pudo deducir el argumento plantilla para "const _Elem *const " de "unknown-type"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3202,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "std::basic_string<_Elem,_Traits,_Alloc> &&" de "unknown-type"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3196,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "const _Elem *const " de "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3183,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "std::basic_string<_Elem,_Traits,_Alloc> &&" de "unknown-type"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3177,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const std::basic_string<_Elem,_Traits,_Alloc> &" de "unknown-type"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3171,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)": no se pudo deducir el argumento plantilla para "std::basic_string<_Elem,_Traits,_Alloc> &&" de "unknown-type"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3160,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": el parámetro de plantilla "_Elem" es ambiguo
+              C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+              puede ser 'unknown-type'
+              C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+              o       'char'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)": no se pudo deducir el argumento plantilla para "const _Elem" de "unknown-type"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3147,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )": no se pudo deducir el argumento plantilla para "const _Elem *const " de "unknown-type"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3136,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const std::basic_string<_Elem,_Traits,_Alloc> &" de "unknown-type"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3123,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const _Elem *const " de "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3111,62):
+      o       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const std::basic_string<_Elem,_Traits,_Alloc> &" de "unknown-type"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(4551,46):
+      o       'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)": no se pudo deducir el argumento plantilla para "const std::move_iterator<_Iter> &" de "unknown-type"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(2014,50):
+      o       'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)'
+          C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,30):
+          "std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)": no se pudo deducir el argumento plantilla para "const std::reverse_iterator<_BidIt> &" de "unknown-type"
+  
+C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(8,74): error C3861: 'to_string': no se encontró el identificador
+C:\Users\hugopervil\source\repos\juego2.2\juego2.2\character.cpp(26,11): error C2248: 'Character::hp': no se puede obtener acceso al miembro protected miembro declarado en la clase 'Character'
+      C:\Users\hugopervil\source\repos\juego2.2\juego2.2\Character.h(8,9):
+      vea la declaración de 'Character::hp'
+      C:\Users\hugopervil\source\repos\juego2.2\juego2.2\Character.h(5,7):
+      vea la declaración de 'Character'
+  
+  Generando código...
